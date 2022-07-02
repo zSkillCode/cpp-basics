@@ -52,11 +52,10 @@
         </ul>
     </li>
     <li>
-        <h2></h2>
+        <h2>Strings</h2>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>C-STYLE STRINGS</li>
+            <li>C++ STRINGS</li>
         </ul>
     </li>
     <li>
