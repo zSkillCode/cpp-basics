@@ -8,6 +8,7 @@
 
 #include <iostream>
 
+// This should normally NOT be used
 using namespace std;
 
 int main() {

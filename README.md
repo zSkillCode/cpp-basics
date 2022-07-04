@@ -59,10 +59,15 @@
         </ul>
     </li>
     <li>
-        <h2></h2>
+        <h2>Functions</h2>
         <ul>
-            <li></li>
-            <li></li>
+            <li>FUNCTION PROTOTYPES</li>
+            <li>FUNCTION DEFINITIONS</li>
+            <li>DEFAULT ARGUMENTS</li>
+            <li>OVERLOADING FUNCTIONS</li>
+            <li>PASS BY REFERENCE</li>
+            <li>STATIC VARIABLES</li>
+            <li>INLINE FUNCTIONS</li>
             <li></li>
         </ul>
     </li>

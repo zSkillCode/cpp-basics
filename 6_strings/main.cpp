@@ -60,7 +60,7 @@ int main() {
     const string str2{"DEF"};
     const string str3{"GHI"};
 
-    const string str4 = str1 + str2 + str3;
+    const string str4{str1 + str2 + str3};
     cout << str4 << endl; // ABCDEFGHI
 
     // Looping
@@ -93,8 +93,8 @@ int main() {
 
     // Find
     const string someNewString{"Hello, what's up?"};
-    const size_t position = someNewString.find("what's"); // 7
-    const size_t position2 = someNewString.find("ABC"); // string::npos
+    const size_t position{someNewString.find("what's")}; // 7
+    const size_t position2{someNewString.find("ABC")}; // string::npos
 
 
     return 0;
