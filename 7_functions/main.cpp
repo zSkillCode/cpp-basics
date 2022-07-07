@@ -119,9 +119,9 @@ void testChangeReference() {
 
 
 void reverseVector(std::vector<std::string> &vector) {
-    const size_t vectorSize = vector.size();
+    const std::size_t vectorSize = vector.size();
     std::vector<std::string> newVector;
-    for (size_t i{0}; i < vectorSize; i++) {
+    for (std::size_t i{0}; i < vectorSize; i++) {
         newVector.push_back(vector.at(vectorSize - i - 1));
     }
     vector = newVector;

@@ -68,15 +68,19 @@
             <li>PASS BY REFERENCE</li>
             <li>STATIC VARIABLES</li>
             <li>INLINE FUNCTIONS</li>
-            <li></li>
         </ul>
     </li>
     <li>
-        <h2></h2>
+        <h2>Pointers and References</h2>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>DECLARING POINTERS</li>
+            <li>DEREFERENCING POINTERS</li>
+            <li>DYNAMIC MEMORY ALLOCATION</li>
+            <li>RELATIONSHIP BETWEEN POINTERS AND ARRAYS</li>
+            <li>POINTER ARITHMETIC</li>
+            <li>CONST AND POINTERS</li>
+            <li>RETURNING POINTERS FROM FUNCTIONS</li>
+            <li>REFERENCES</li>
         </ul>
     </li>
 </ol>
