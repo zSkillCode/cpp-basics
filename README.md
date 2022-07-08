@@ -105,11 +105,9 @@
                         <li>DECLARING CONSTRUCTORS</li>
                         <li>EXPLICIT KEYWORD</li>
                         <li>DECLARING THE DESTRUCTOR</li>
-                        <li></li>
                     </ul>
                 </details>
             </li>
-            <li>Default Constructor</li>
         </ol>
     </li>
 </ol>
