@@ -85,7 +85,7 @@
     </li>
     <li>
         <h2>Classes and Objects</h2>
-        <ol>
+        <ol style="list-style-type:decimal;">
             <li>
                 <details>
                     <summary>Classes and Objects basics</summary>
@@ -97,9 +97,7 @@
                     </ul>
                 </details>
             </li>
-            <li>
-                <h3>Using Header Files</h3>
-            </li>
+            <li>Using Header Files</li>
         </ol>
     </li>
 </ol>
