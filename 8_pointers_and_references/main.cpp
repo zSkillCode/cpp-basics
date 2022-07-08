@@ -1,9 +1,11 @@
 #include <iostream>
 #include <vector>
+#include <cstddef>
+#include <string>
 
 void doubleData(int *intPointer);
 
-void displayVector(const std::vector<std::string> *vec);
+void displayVector(const std::vector <std::string> *vec);
 
 const int *max(const int *intPointer1, const int *intPointer2);
 
@@ -70,7 +72,7 @@ int main() {
      */
     // ++ (and --)
     int array[]{100, 200, 300};
-    int *arrayPointer{array};
+    const int *arrayPointer{array};
 
     std::cout << arrayPointer << std::endl; // 0xa1107ff7e4
     std::cout << *arrayPointer << std::endl; // 100
@@ -137,7 +139,7 @@ int main() {
     doubleData(&someNumber);
     std::cout << someNumber << std::endl; // 10
 
-    const std::vector<std::string> stringVector{"John", "Michael", "Stephen"};
+    const std::vector <std::string> stringVector{"John", "Michael", "Stephen"};
     displayVector(&stringVector); // John Michael Stephen
 
     /*
@@ -161,7 +163,7 @@ int main() {
     /*
      * REFERENCES
      */
-    std::vector<std::string> names{"Thomas", "Jonas", "Frank"};
+    std::vector <std::string> names{"Thomas", "Jonas", "Frank"};
     // WITHOUT USING REFERENCES
     for (auto name: names) {
         name = "A";
@@ -202,7 +204,7 @@ void doubleData(int *const intPointer) {
     *intPointer *= 2;
 }
 
-void displayVector(const std::vector<std::string> *const vec) {
+void displayVector(const std::vector <std::string> *const vec) {
     for (const auto &str: *vec) {
         std::cout << str << " ";
     }

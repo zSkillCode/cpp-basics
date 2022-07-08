@@ -83,4 +83,23 @@
             <li>REFERENCES</li>
         </ul>
     </li>
+    <li>
+        <h2>Classes and Objects</h2>
+        <ol>
+            <li>
+                <details>
+                    <summary>Classes and Objects basics</summary>
+                    <ul>
+                        <li>DECLARING A SIMPLE CLASS</li>
+                        <li>CREATING AN OBJECT</li>
+                        <li>ACCESSING CLASS MEMBERS</li>
+                        <li>ACCESS MODIFIERS</li>
+                    </ul>
+                </details>
+            </li>
+            <li>
+                <h3>Using Header Files</h3>
+            </li>
+        </ol>
+    </li>
 </ol>

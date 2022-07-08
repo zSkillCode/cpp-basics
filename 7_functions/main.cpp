@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
+#include <cstddef>
+#include <string>
 
 /*
  * FUNCTION PROTOTYPES
@@ -24,7 +26,7 @@ void testChangeReference();
 
 void changeReference(std::string &string);
 
-void reverseVector(std::vector<std::string> &vector);
+void reverseVector(std::vector <std::string> &vector);
 
 void testReversVector();
 
@@ -69,7 +71,7 @@ std::string getFullName(const std::string firstName, const std::string lastName)
 }
 
 double cylinderRadius(const double radius, const double height) {
-    return M_PI * std::pow(radius, 2) * height;
+    return (atan(1)*4) * std::pow(radius, 2) * height;
 }
 
 /*
@@ -118,9 +120,9 @@ void testChangeReference() {
 }
 
 
-void reverseVector(std::vector<std::string> &vector) {
+void reverseVector(std::vector <std::string> &vector) {
     const std::size_t vectorSize = vector.size();
-    std::vector<std::string> newVector;
+    std::vector <std::string> newVector;
     for (std::size_t i{0}; i < vectorSize; i++) {
         newVector.push_back(vector.at(vectorSize - i - 1));
     }
@@ -128,7 +130,7 @@ void reverseVector(std::vector<std::string> &vector) {
 }
 
 void testReversVector() {
-    std::vector<std::string> vector{"A", "B", "C"};
+    std::vector <std::string> vector{"A", "B", "C"};
     std::cout << vector.at(0) << vector.at(1) << vector.at(2) << std::endl;  // ABC
     reverseVector(vector);
     std::cout << vector.at(0) << vector.at(1) << vector.at(2) << std::endl; // CBA

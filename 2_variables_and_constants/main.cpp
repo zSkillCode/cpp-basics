@@ -70,7 +70,7 @@ int main() {
     std::cout << "Minimum int value: " << INT_MIN << std::endl;
     std::cout << "Minimum short value: " << SHRT_MIN << std::endl;
     std::cout << "Minimum long value: " << LONG_MIN << std::endl;
-    std::cout << "Minimum long long value: " << LONG_LONG_MIN << std::endl;
+    std::cout << "Minimum long long value: " << LLONG_MIN << std::endl;
 
     std::cout << "========================================" << std::endl;
 
@@ -78,7 +78,7 @@ int main() {
     std::cout << "Maximum int value: " << INT_MAX << std::endl;
     std::cout << "Maximum short value: " << SHRT_MAX << std::endl;
     std::cout << "Maximum long value: " << LONG_MAX << std::endl;
-    std::cout << "Maximum long long value: " << LONG_LONG_MAX << std::endl;
+    std::cout << "Maximum long long value: " << LLONG_MAX << std::endl;
 
     /*
      * CONSTANTS
