@@ -49,11 +49,11 @@ public:
     double balance;
 
     void printData() const {
-        std::cout << name << " has a balance of $" << balance << "." << std::endl;
+        std::cout << this->name << " has a balance of $" << this->balance << "." << std::endl;
     }
 
     void deposit(const double amount) {
-        balance += amount;
+        this->balance += amount;
     }
 };
 
@@ -83,7 +83,7 @@ void accessMembers() {
 class Enemy {
 public:
     void printInfo() const {
-        std::cout << "The enemy with the id " << id << " has " << health << "hp." << std::endl;
+        std::cout << "The enemy with the id " << this->id<< " has " << this->health << "hp." << std::endl;
     }
 
 private:
@@ -92,7 +92,7 @@ private:
     const std::string privateString{"This is private"};
 
     void printPrivateInfo() const {
-        std::cout << privateString << std::endl;
+        std::cout << this->privateString << std::endl;
     }
 };
 

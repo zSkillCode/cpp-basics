@@ -88,7 +88,7 @@
         <ol style="list-style-type:decimal;">
             <li>
                 <details>
-                    <summary>Classes and Objects basics</summary>
+                    <summary>Classes and Objects Basics</summary>
                     <ul>
                         <li>DECLARING A SIMPLE CLASS</li>
                         <li>CREATING AN OBJECT</li>
@@ -98,6 +98,18 @@
                 </details>
             </li>
             <li>Using Header Files</li>
+            <li>
+                <details>
+                    <summary>Constructors and Destructors</summary>
+                    <ul>
+                        <li>DECLARING CONSTRUCTORS</li>
+                        <li>EXPLICIT KEYWORD</li>
+                        <li>DECLARING THE DESTRUCTOR</li>
+                        <li></li>
+                    </ul>
+                </details>
+            </li>
+            <li>Default Constructor</li>
         </ol>
     </li>
 </ol>
