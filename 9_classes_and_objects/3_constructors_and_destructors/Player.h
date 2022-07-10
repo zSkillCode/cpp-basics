@@ -13,7 +13,7 @@ public:
      * EXPLICIT KEYWORD
      *
      * The explicit keyword should always be used for
-     * constructors with one single parameter.
+     * constructors callable with one single argument.
      * The reason for that can be found here:
      * https://www.ibm.com/docs/en/i/7.4?topic=only-explicit-conversion-constructors-c
      */

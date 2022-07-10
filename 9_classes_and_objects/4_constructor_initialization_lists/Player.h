@@ -18,7 +18,7 @@ public:
     int getXp() const;
 
 private:
-    std::string name;
-    int health;
-    int xp;
+    const std::string name;
+    const int health;
+    const int xp;
 };
