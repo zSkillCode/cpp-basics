@@ -109,6 +109,8 @@
                 </details>
             </li>
             <li>Constructor Initialization Lists</li>
+            <li>Default Constructor Parameters</li>
+            <li>Copy Constructor</li>
         </ol>
     </li>
 </ol>
