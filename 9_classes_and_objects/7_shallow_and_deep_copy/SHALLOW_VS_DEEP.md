@@ -5,7 +5,7 @@ Some members of the copy may reference the same objects as the original.
 ```cpp
 class Deep {
 public:
-    explicit Deep() : somePointer{new int} {}
+    Deep() : somePointer{new int} {}
 
     Deep(const Deep &copy) : somePointer(copy.somePointer) {}
 private:
@@ -20,7 +20,7 @@ All members of the original are cloned (recursively, if necessary). There are no
 ```cpp
 class Deep {
 public:
-    explicit Deep() : somePointer{new int} {}
+    Deep() : somePointer{new int} {}
 
     Deep(const Deep &copy) : somePointer(new int{*copy.somePointer}) {}
 private:
