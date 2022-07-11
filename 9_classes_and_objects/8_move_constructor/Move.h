@@ -3,7 +3,7 @@
 class Move {
 public:
     // Constructor
-    Move(int data);
+    explicit Move(int data);
 
     // Copy constructor
     Move(const Move &source);

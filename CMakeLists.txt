@@ -18,3 +18,4 @@ add_executable(9.4 9_classes_and_objects/4_constructor_initialization_lists/main
 add_executable(9.5 9_classes_and_objects/5_default_constructor_parameters/main.cpp 9_classes_and_objects/5_default_constructor_parameters/Player.cpp 9_classes_and_objects/5_default_constructor_parameters/Player.h)
 add_executable(9.6 9_classes_and_objects/6_copy_constructor/main.cpp 9_classes_and_objects/6_copy_constructor/Player.cpp 9_classes_and_objects/6_copy_constructor/Player.h)
 add_executable(9.8 9_classes_and_objects/8_move_constructor/main.cpp 9_classes_and_objects/8_move_constructor/Move.cpp 9_classes_and_objects/8_move_constructor/Move.h)
+add_executable(9.9 9_classes_and_objects/9_static_members/main.cpp 9_classes_and_objects/9_static_members/Player.cpp 9_classes_and_objects/9_static_members/Player.h)

@@ -112,6 +112,8 @@
             <li>Default Constructor Parameters</li>
             <li>Copy Constructor</li>
             <li>Shallow and Deep Copy</li>
+            <li>Move Constructor</li>
+            <li>Static Members</li>
         </ol>
     </li>
 </ol>
