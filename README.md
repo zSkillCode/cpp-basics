@@ -114,6 +114,7 @@
             <li>Shallow and Deep Copy</li>
             <li>Move Constructor</li>
             <li>Static Members</li>
+            <li>Friend of a Class</li>
         </ol>
     </li>
 </ol>
