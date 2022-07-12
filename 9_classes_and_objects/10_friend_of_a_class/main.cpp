@@ -8,12 +8,13 @@
 class VaultManager;
 
 class Vault {
-private:
-    const std::string secretKey{"4uef2dejg3fvc"};
-
+public:
     bool open(const std::string &key) const {
         return key == this->secretKey;
     }
+
+private:
+    const std::string secretKey{"4uef2dejg3fvc"};
 
     friend VaultManager;
 };
@@ -27,7 +28,7 @@ public:
 
 int main() {
     const Vault vault;
-    // vault.open(); NOT POSSIBLE
-    std::cout << std::boolalpha << VaultManager::openVault(vault) << std::endl;
+    std::cout << (VaultManager::openVault(vault) ? "Opening vault..." : "Wrong key.") << std::endl;
+    // Opening vault... (true)
     return 0;
 }
