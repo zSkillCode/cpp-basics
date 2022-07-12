@@ -12,12 +12,12 @@ public:
 
     // We need to overload the assignment operator in order to perform a deep copy
     // instead of a shallow copy. This is only necessary if the class contains raw pointers.
-    MyString &operator=(const MyString &myString); // Copy assignment (NOT CONSTRUCTION!!)
+    MyString &operator=(const MyString &rhs); // Copy assignment (NOT CONSTRUCTION!!)
     // It gets called when we assign MyString to an R-value, example:
     // MyString myString{"ABC"}; // this is not an assignment, assignment operator not called
     // myString = otherString; // otherString is an L-value so the copy assignment operator will be called
     // myString = "DEF"; // "DEF" is an R-value so the move assignment operator will be called
-    MyString &operator=(MyString &&myString) noexcept; // Move assignment
+    MyString &operator=(MyString &&rhs) noexcept; // Move assignment
 
 
     void display() const;

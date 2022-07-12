@@ -2,28 +2,28 @@
 
 Number::Number(int num) : num{num} {}
 
-Number Number::operator+(const Number &otherNum) const {
-    return this->num + otherNum.num;
+Number Number::operator+(const Number &rhs) const {
+    return this->num + rhs.num;
 }
 
-Number Number::operator-(const Number &otherNum) const {
-    return this->num - otherNum.num;
+Number Number::operator-(const Number &rhs) const {
+    return this->num - rhs.num;
 }
 
-Number Number::operator*(const Number &otherNum) const {
-    return this->num * otherNum.num;
+Number Number::operator*(const Number &rhs) const {
+    return this->num * rhs.num;
 }
 
-Number Number::operator/(const Number &otherNum) const {
-    return this->num / otherNum.num;
+Number Number::operator/(const Number &rhs) const {
+    return this->num / rhs.num;
 }
 
-Number Number::operator%(const Number &otherNum) const {
-    return this->num % otherNum.num;
+Number Number::operator%(const Number &rhs) const {
+    return this->num % rhs.num;
 }
 
-bool Number::operator==(const Number &otherNum) const {
-    return this->num == otherNum.num;
+bool Number::operator==(const Number &rhs) const {
+    return this->num == rhs.num;
 }
 
 Number Number::operator-() const {

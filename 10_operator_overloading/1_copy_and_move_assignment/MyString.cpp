@@ -26,26 +26,26 @@ MyString::~MyString() {
     delete[] this->str;
 }
 
-MyString &MyString::operator=(const MyString &myString) {
-    if (this == &myString) {
+MyString &MyString::operator=(const MyString &rhs) {
+    if (this == &rhs) {
         return *this;
     }
 
     delete[] this->str;
-    this->str = new char[std::strlen(myString.str) + 1];
-    std::strcpy(this->str, myString.str);
+    this->str = new char[std::strlen(rhs.str) + 1];
+    std::strcpy(this->str, rhs.str);
     std::cout << "Copy assignment operator called!" << std::endl;
     return *this;
 }
 
-MyString &MyString::operator=(MyString &&myString) noexcept {
-    if (this == &myString) {
+MyString &MyString::operator=(MyString &&rhs) noexcept {
+    if (this == &rhs) {
         return *this;
     }
 
     delete[] this->str;
-    this->str = myString.str;
-    myString.str = nullptr;
+    this->str = rhs.str;
+    rhs.str = nullptr;
     std::cout << "Move assignment operator called!" << std::endl;
     return *this;
 }
