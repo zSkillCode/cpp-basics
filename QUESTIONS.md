@@ -25,3 +25,6 @@
 
 #### Why should we dynamically allocate storage (new) when e.g. returning an array from a function?
 > After the function was executed, the stack frame (box) of the function and all its automatically allocated variables are deleted. So if the array was created inside the function, it was deleted and we return a pointer to the first element of the array which also was deleted. 
+
+#### Why do we need to nullify the pointer of the temporary object in move constructors and move assignment operators?
+> This is very important because when the temporary object gets destroyed, it's going to take this data with it.

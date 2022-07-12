@@ -20,3 +20,4 @@ add_executable(9.6 9_classes_and_objects/6_copy_constructor/main.cpp 9_classes_a
 add_executable(9.8 9_classes_and_objects/8_move_constructor/main.cpp 9_classes_and_objects/8_move_constructor/Move.cpp 9_classes_and_objects/8_move_constructor/Move.h)
 add_executable(9.9 9_classes_and_objects/9_static_members/main.cpp 9_classes_and_objects/9_static_members/Player.cpp 9_classes_and_objects/9_static_members/Player.h)
 add_executable(9.10 9_classes_and_objects/10_friend_of_a_class/main.cpp)
+add_executable(10.1 10_operator_overloading/1_copy_and_move_assignment/main.cpp 10_operator_overloading/1_copy_and_move_assignment/MyString.cpp 10_operator_overloading/1_copy_and_move_assignment/MyString.h)

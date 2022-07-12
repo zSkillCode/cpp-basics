@@ -88,7 +88,7 @@
         <ol style="list-style-type:decimal;">
             <li>
                 <details>
-                    <summary>Classes and Objects Basics</summary>
+                    <summary>CLASSES AND OBJECTS BASICS</summary>
                     <ul>
                         <li>DECLARING A SIMPLE CLASS</li>
                         <li>CREATING AN OBJECT</li>
@@ -97,10 +97,10 @@
                     </ul>
                 </details>
             </li>
-            <li>Using Header Files</li>
+            <li>USING HEADER FILES</li>
             <li>
                 <details>
-                    <summary>Constructors and Destructors</summary>
+                    <summary>CONSTRUCTORS AND DESTRUCTORS</summary>
                     <ul>
                         <li>DECLARING CONSTRUCTORS</li>
                         <li>EXPLICIT KEYWORD</li>
@@ -108,13 +108,19 @@
                     </ul>
                 </details>
             </li>
-            <li>Constructor Initialization Lists</li>
-            <li>Default Constructor Parameters</li>
-            <li>Copy Constructor</li>
-            <li>Shallow and Deep Copy</li>
-            <li>Move Constructor</li>
-            <li>Static Members</li>
-            <li>Friend of a Class</li>
+            <li>CONSTRUCTOR INITIALIZATION LISTS</li>
+            <li>DEFAULT CONSTRUCTOR PARAMETERS</li>
+            <li>COPY CONSTRUCTOR</li>
+            <li>SHALLOW AND DEEP COPY</li>
+            <li>MOVE CONSTRUCTOR</li>
+            <li>STATIC MEMBERS</li>
+            <li>FRIEND OF A CLASS</li>
+        </ol>
+    </li>
+    <li>
+        <h2>Operator Overloading</h2>
+        <ol style="list-style-type:decimal;">
+            <li>COPY AND MOVE ASSIGNMENT</li>
         </ol>
     </li>
 </ol>
