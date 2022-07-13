@@ -27,3 +27,4 @@ add_executable(10.4 10_operator_overloading/4_overloading_the_stream_insertion_a
 add_executable(11.1 11_inheritance/1_deriving_classes/main.cpp 11_inheritance/1_deriving_classes/Account.cpp 11_inheritance/1_deriving_classes/Account.h 11_inheritance/1_deriving_classes/AdminAccount.cpp 11_inheritance/1_deriving_classes/AdminAccount.h)
 add_executable(11.2 11_inheritance/2_access_modifiers/main.cpp)
 add_executable(11.3 11_inheritance/3_constructors_and_destructors/main.cpp)
+add_executable(11.4 11_inheritance/4_passing_args_to_base_constructor/main.cpp)
