@@ -126,4 +126,12 @@
             <li>OVERLOADING THE STREAM INSERTION AND EXTRACTION OPERATOR</li>
         </ol>
     </li>
+    <li>
+        <h2>Inheritance</h2>
+        <ol style="list-style-type:decimal;">
+            <li>DERIVING CLASSES</li>
+            <li>ACCESS MODIFIERS</li>
+            <li></li>
+        </ol>
+    </li>
 </ol>
