@@ -123,6 +123,7 @@
             <li>COPY AND MOVE ASSIGNMENT</li>
             <li>OVERLOADING OPERATORS AS MEMBER FUNCTIONS</li>
             <li>OVERLOADING OPERATORS AS GLOBAL FUNCTIONS</li>
+            <li>OVERLOADING THE STREAM INSERTION AND EXTRACTION OPERATOR</li>
         </ol>
     </li>
 </ol>
