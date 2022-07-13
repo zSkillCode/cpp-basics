@@ -121,6 +121,8 @@
         <h2>Operator Overloading</h2>
         <ol style="list-style-type:decimal;">
             <li>COPY AND MOVE ASSIGNMENT</li>
+            <li>OVERLOADING OPERATORS AS MEMBER FUNCTIONS</li>
+            <li>OVERLOADING OPERATORS AS GLOBAL FUNCTIONS</li>
         </ol>
     </li>
 </ol>
