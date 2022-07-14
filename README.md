@@ -148,7 +148,7 @@
                     <li>PURE VIRTUAL FUNCTIONS</li>
                 </ul>
             </li>
-            <li></li>
+            <li>ABSTRACT CLASSES AS INTERFACES</li>
         </ol>
     </li>
 </ol>
