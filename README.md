@@ -136,4 +136,11 @@
             <li>COPY AND MOVE CONSTRUCTORS AND ASSIGNMENT OPERATORS</li>
         </ol>
     </li>
+    <li>
+        <h2>Polymorphism</h2>
+        <ol style="list-style-type:decimal;">
+            <li>STATIC BINDING</li>
+            <li></li>
+        </ol>
+    </li>
 </ol>
