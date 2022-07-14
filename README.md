@@ -142,6 +142,12 @@
             <li>STATIC BINDING</li>
             <li>DYNAMIC BINDING</li>
             <li>FINAL SPECIFIER</li>
+            <li>
+                <p>ABSTRACT CLASSES</p>
+                <ul>
+                    <li>PURE VIRTUAL FUNCTIONS</li>
+                </ul>
+            </li>
             <li></li>
         </ol>
     </li>
