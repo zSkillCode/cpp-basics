@@ -140,6 +140,8 @@
         <h2>Polymorphism</h2>
         <ol style="list-style-type:decimal;">
             <li>STATIC BINDING</li>
+            <li>DYNAMIC BINDING</li>
+            <li>FINAL SPECIFIER</li>
             <li></li>
         </ol>
     </li>
