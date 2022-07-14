@@ -14,6 +14,10 @@ public:
     }
 };
 
+void display(const Base &base) {
+    base.display();
+}
+
 int main() {
     Base{}.display(); // BASE
     Derived{}.display(); // DERIVED
@@ -22,4 +26,6 @@ int main() {
     base->display(); // BASE
 
     delete base;
+
+    display(Derived{}); // BASE
 }
