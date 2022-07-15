@@ -160,4 +160,11 @@
             <li>CUSTOM DELETERS</li>
         </ul>
     </li>
+    <li>
+        <h2>Exception Handling</h2>
+        <ul>
+            <li>THROWING AN EXCEPTION</li>
+            <li>CATCHING AN EXCEPTION</li>
+        </ul>
+    </li>
 </ol>
