@@ -151,4 +151,13 @@
             <li>ABSTRACT CLASSES AS INTERFACES</li>
         </ol>
     </li>
+     <li>
+        <h2>Smart Pointers</h2>
+        <ul>
+            <li>UNIQUE POINTER</li>
+            <li>SHARED POINTER</li>
+            <li>WEAK POINTER</li>
+            <li>CUSTOM DELETERS</li>
+        </ul>
+    </li>
 </ol>
