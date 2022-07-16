@@ -167,4 +167,20 @@
             <li>CATCHING AN EXCEPTION</li>
         </ul>
     </li>
+      <li>
+        <h2>I/O STREAMS</h2>
+        <ol style="list-style-type:decimal;">
+            <li>
+                <details>
+                    <summary>STREAM MANIPULATORS</summary>
+                    <ul>
+                        <li>BOOLEAN</li>
+                        <li>INTEGER</li>
+                        <li>FLOATING POINT</li>
+                        <li>ALIGN AND FILL</li>
+                    </ul>
+                </details>
+            </li>
+        </ol>
+    </li>
 </ol>
