@@ -210,6 +210,7 @@
             <li>SET</li>
             <li>MAP</li>
             <li>STACK</li>
+            <li>QUEUE</li>
         </ol>
     </li>
 </ol>
