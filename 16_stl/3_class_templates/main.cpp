@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <utility>
 
 template<typename T1, typename T2>
 class Pair {
