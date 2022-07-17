@@ -181,6 +181,7 @@
                     </ul>
                 </details>
             </li>
+            <li>READING FROM A TEXT FILE</li>
         </ol>
     </li>
 </ol>
