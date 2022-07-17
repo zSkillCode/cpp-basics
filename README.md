@@ -209,6 +209,7 @@
             <li>LIST AND FORWARD LIST</li>
             <li>SET</li>
             <li>MAP</li>
+            <li>STACK</li>
         </ol>
     </li>
 </ol>
