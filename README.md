@@ -182,6 +182,17 @@
                 </details>
             </li>
             <li>READING FROM A TEXT FILE</li>
+            <li>WRITING TO A TEXT FILE</li>
+            <li>
+                <details>
+                    <summary>STRING STREAMS</summary>
+                    <ul>
+                        <li>INPUT</li>
+                        <li>OUTPUT</li>
+                        <li>DATA VALIDATION</li>
+                    </ul>
+                </details>
+            </li>
         </ol>
     </li>
 </ol>
