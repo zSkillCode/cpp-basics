@@ -195,4 +195,12 @@
             </li>
         </ol>
     </li>
+    <li>
+        <h2>The Standard Template Library (STL)</h2>
+        <ul>
+            <li>GENERIC PROGRAMMING WITH MACROS</li>
+            <li>GENERIC PROGRAMMING WITH FUNCTION TEMPLATES</li>
+            <li>GENERIC PROGRAMMING WITH CLASS TEMPLATES</li>
+        </ul>
+    </li>
 </ol>
