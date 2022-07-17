@@ -211,6 +211,7 @@
             <li>MAP</li>
             <li>STACK</li>
             <li>QUEUE</li>
+            <li>PRIORITY QUEUE</li>
         </ol>
     </li>
 </ol>
