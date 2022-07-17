@@ -214,4 +214,11 @@
             <li>PRIORITY QUEUE</li>
         </ol>
     </li>
+    <li>
+        <h2>Lambdas</h2>
+        <ol style="list-style-type:decimal;">
+            <li>Function Objects</li>
+            <li></li>
+        </ol>
+    </li>
 </ol>
