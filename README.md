@@ -217,8 +217,9 @@
     <li>
         <h2>Lambdas</h2>
         <ol style="list-style-type:decimal;">
-            <li>Function Objects</li>
-            <li></li>
+            <li>FUNCTION OBJECTS</li>
+            <li>STATELESS LAMBDA EXPRESSIONS</li>
+            <li>STATEFUL LAMBDA EXPRESSIONS</li>
         </ol>
     </li>
 </ol>
