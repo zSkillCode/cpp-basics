@@ -222,4 +222,11 @@
             <li>STATEFUL LAMBDA EXPRESSIONS</li>
         </ol>
     </li>
+     <li>
+        <h2>Enumerations</h2>
+        <ol style="list-style-type:decimal;">
+            <li>UNSCOPED ENUMS</li>
+            <li>SCOPED ENUMS</li>
+        </ol>
+    </li>
 </ol>
