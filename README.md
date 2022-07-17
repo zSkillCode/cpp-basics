@@ -201,6 +201,9 @@
             <li>GENERIC PROGRAMMING WITH MACROS</li>
             <li>GENERIC PROGRAMMING WITH FUNCTION TEMPLATES</li>
             <li>GENERIC PROGRAMMING WITH CLASS TEMPLATES</li>
+            <li>ITERATORS</li>
+            <li>ALGORITHMS</li>
+            <li></li>
         </ul>
     </li>
 </ol>
