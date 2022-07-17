@@ -208,6 +208,7 @@
             <li>DEQUE</li>
             <li>LIST AND FORWARD LIST</li>
             <li>SET</li>
+            <li>MAP</li>
         </ol>
     </li>
 </ol>
