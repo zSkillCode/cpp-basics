@@ -203,6 +203,7 @@
             <li>GENERIC PROGRAMMING WITH CLASS TEMPLATES</li>
             <li>ITERATORS</li>
             <li>ALGORITHMS</li>
+            <li>ARRAY</li>
             <li></li>
         </ul>
     </li>
