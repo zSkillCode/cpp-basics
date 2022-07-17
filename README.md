@@ -207,6 +207,7 @@
             <li>VECTOR</li>
             <li>DEQUE</li>
             <li>LIST AND FORWARD LIST</li>
+            <li>SET</li>
         </ol>
     </li>
 </ol>
