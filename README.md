@@ -197,7 +197,7 @@
     </li>
     <li>
         <h2>The Standard Template Library (STL)</h2>
-        <ul>
+        <ol style="list-style-type:decimal;">
             <li>GENERIC PROGRAMMING WITH MACROS</li>
             <li>GENERIC PROGRAMMING WITH FUNCTION TEMPLATES</li>
             <li>GENERIC PROGRAMMING WITH CLASS TEMPLATES</li>
@@ -206,6 +206,7 @@
             <li>ARRAY</li>
             <li>VECTOR</li>
             <li>DEQUE</li>
-        </ul>
+            <li>LIST AND FORWARD LIST</li>
+        </ol>
     </li>
 </ol>
