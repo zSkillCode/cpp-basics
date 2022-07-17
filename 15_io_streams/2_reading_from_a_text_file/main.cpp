@@ -3,8 +3,7 @@
 #include <string>
 
 int main() {
-    std::ifstream file;
-    file.open("../15_io_streams/2_reading_from_a_text_file/file.txt");
+    std::ifstream file{"../15_io_streams/2_reading_from_a_text_file/file.txt"};
 
     if (!file) {
         std::cerr << "Failed to open file." << std::endl;
