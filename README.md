@@ -204,6 +204,7 @@
             <li>ITERATORS</li>
             <li>ALGORITHMS</li>
             <li>ARRAY</li>
+            <li>VECTOR</li>
             <li></li>
         </ul>
     </li>
